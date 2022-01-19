@@ -10,8 +10,8 @@ namespace Lab_3
         {
             for (var i = 0; i < 200; i++)
             {
-                Thread.Sleep(50);
                 Display(' ');  
+                Thread.Sleep(50);
             }
             
         }
@@ -21,8 +21,8 @@ namespace Lab_3
         {
             for (var i = 0; i < 275; i++)
             {
+                Display('*');
                 Thread.Sleep(40);
-                Display('*');   
             }
                 
         }
@@ -31,8 +31,9 @@ namespace Lab_3
         {
             for (var i = 0; i < 450; i++)
             {
-                Thread.Sleep(20);
                 Display('°');
+                Thread.Sleep(20);
+                
             }
             
         }
